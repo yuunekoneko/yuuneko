@@ -1,0 +1,58 @@
+@charset "UTF-8";
+html{font-size: 100%;}
+body{font-family: 'Yu Gothic UI','Meiryo UI', sans-serif; line-height: 1.7; color: #000000;}
+a{text-decoration: none;}
+.main-nav {display: flex;font-size: 1.8rem;text-transform: lowercase;margin-top: 40px;list-style: none; text-align: justify;font-weight:bold;}
+.main-nav li {margin-left: 265px; margin-top:0px;}
+.main-nav a {color: #fdb5ff}
+.main-nav a:hover {color: rgb(255, 242, 104);}
+.page-header {display: flex;}
+
+/* HOME------------ */
+.home-content{margin-left:160px;margin-top:20;}
+.home-content p{font-size:1.5rem;margin:15px 0 30px;font-weight:bold;}
+.page-title{font-size: 5rem; text-transform: uppercase; font-weight: bold;margin-left:300px;margin-top:10%;color:rgb(246, 160, 243)}
+.p{font-family: 'Yu Gothic UI','Meiryo UI', sans-serif;}
+.a{font-family: 'Yu Gothic UI','Meiryo UI', sans-serif;}
+.button{font-weight:bold;font-size: 1.375rem; background:rgb(255, 152, 229); color: #000000;margin-left: 26%; border-radius: 10px; padding: 10px 20px;}
+.button:hover {background: rgb(255, 253, 156);}
+.big-bg {background-size:auto; background-position: center top;}
+#home {background-image: url(../images/neko2.jpg);min-height: 100vh;}
+#home .page-title {text-transform: nome;}
+.profile {background: rgb(255, 231, 250);width: 300px;padding: 2rem;border: 1px solid #fe29d0; margin-left: 75.5%; margin-top:0;}
+.profile__img {display: block;width: 160px;height: 160px;border-radius:50%;margin: 0 auto;}
+.profile__name {text-align:center;font-weight:bolder;font-size:1.4rem; margin: 1rem 0rem 1rem;letter-spacing:.1rem; }
+.profile__yomi {text-align:center;padding:0 2rem;font-size:.8rem;letter-spacing:.1rem;  opacity:.7;  margin-bottom:10px; margin-top: 0px;}
+.profile__desc {line-height:1.4rem; font-weight:bold;} 
+
+/* Photo --------------*/
+#Photo {background-image: url(../images/neko4.jpg);background-size:cover;  background-position:50% 65% ;height:400px; margin-bottom:  20px;}
+.Photo-content .page-title {font-family: 'Yu Gothic UI','Meiryo UI', sans-serif; margin-left:210px; margin-top:10px;}
+.Photo-content p {font-family: 'Yu Gothic UI',sans-serif;  margin-left:210px; font-weight:bold; color:rgba(244, 200, 255, 0.849);}
+.grid{display:grid ;column-gap:20px;justify-items:center;justify-content:start;grid-template-columns:1fr 1fr 1fr  1fr;grid-template-rows:auto}
+img {max-width: 100%}
+.grid-img {position: relative; overflow: hidden; padding-bottom: 30%;}
+.grid-img img {position:absolute;}
+.grid p {font-size: 1.15rem; font-family: 'Yu Gothic UI',sans-serif; text-align:  center;}
+
+/* blog --------------*/
+#blog {background-image: url(../images/neko17.jpg); background-size:cover; background-position: 50% 28%; height: 400px; margin-bottom:  20px;}
+.blog-content .page-title {font-family: 'Yu Gothic UI','Meiryo UI', sans-serif; margin-left:100px; margin-top:20px;}
+.blog-content p {font-family: 'Yu Gothic UI',sans-serif;  margin-left:20px; font-weight:bold; color:rgba(30, 26, 55, 0.849);}
+.post-info {position:relative; padding-top:4px; margin-bottom:40px;}
+.post-info h3 {font-size: 3rem; margin-left:50px; color:#ff7df0 }
+.post-info p {font-size:1.25rem; margin-left:50px;}
+.post-info h4 {font-size: 2.5rem; margin-left:50px; color:rgb(61, 67, 255)}
+.post-info h5 {font-size: 2.5rem; margin-left:50px; color:#ff1a1a}
+
+/* contact --------------*/
+#contact {background-image: url(../images/neko20.jpg); min-height: 100vh; background-position: 0% 50%;}
+form div {margin-bottom: 14px; margin-left: 80px;}
+label {font-size: 1.125rem; margin-bottom: 10px; display: block;}
+input[type="text"],
+input[type="email"]
+textarea{background: rgba(255,255,255,.5); border: 1px #fff solid; border-radius: 5px; padding:10px; font-size: 1rem;}
+input[type="text"],
+input[type="email"]{background: rgba(255,255,255,.5); border: 1px #fff solid; border-radius: 5px; padding:10px; font-size: 1rem;width: 100%; max-width: 240px;}
+textarea{background: rgba(255,255,255,.5); border: 1px #fff solid; border-radius: 5px; padding:10px; font-size: 1rem; width: 100%; max-width:480px; height: 6rem;}
+input[type="submit"]{border: none; cursor: pointer; line-height: 1;}
